@@ -1,0 +1,10 @@
+^E:\C++CODE\C++\.VSCODE\PROJECT\BANK\BUILD\CMAKEFILES\639A67ACCE0E90DD675FEAE0AEADC14A\GENERATE.STAMP.RULE
+setlocal
+F:\tool\cmake-4.0.0-rc1-windows-x86_64\bin\cmake.exe -SE:/c++code/C++/.vscode/Project/bank -BE:/c++code/C++/.vscode/Project/bank/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/c++code/C++/.vscode/Project/bank/build/bank.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

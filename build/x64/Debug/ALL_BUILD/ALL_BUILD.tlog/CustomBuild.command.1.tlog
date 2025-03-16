@@ -1,0 +1,10 @@
+^E:\C++CODE\C++\.VSCODE\PROJECT\BANK\CMAKELISTS.TXT
+setlocal
+F:\tool\cmake-4.0.0-rc1-windows-x86_64\bin\cmake.exe -SE:/c++code/C++/.vscode/Project/bank -BE:/c++code/C++/.vscode/Project/bank/build --check-stamp-file E:/c++code/C++/.vscode/Project/bank/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

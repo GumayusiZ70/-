@@ -1,0 +1,5 @@
+Account Lily 12000
+CreditAccount Max 7000 1000
+SavingAccount Nina 18000 0.02
+CreditAccount Oliver 5000 500
+Account Peter 4000
